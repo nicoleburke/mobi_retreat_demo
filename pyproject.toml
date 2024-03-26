@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "app-name"
+name = "mobi_retreat_demo"
 version = "0.1.0"
-description = "A beautiful description."
-authors = ["Reinder Vos de Wael <reinder.vosdewael@childmind.org>"]
+description = "practicing python template"
+authors = ["Nicole Burke, PhD <nicole.b.burke@gmail.com>"]
 license = "LGPL-2.1"
 readme = "README.md"
-packages = [{include = "APP_NAME", from = "src"}]
+packages = [{include = "mobi_retreat_demo", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "~3.11"
